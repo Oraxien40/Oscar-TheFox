@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -265,6 +265,8 @@ GameObject:
   - component: {fileID: 965841006}
   - component: {fileID: 965841004}
   - component: {fileID: 965841015}
+  - component: {fileID: 965841016}
+  - component: {fileID: 965841005}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -303,7 +305,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314
     y: 46.93617
-    width: 90.41237
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -330,11 +332,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -128.01439, y: -89.46025}
+  scrollPos: {x: -77.282425, y: 68.0449}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.97
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -343,8 +345,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2453113842641918033}
-  selectedCommands:
-  - {fileID: 965841009}
+  selectedCommands: []
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -416,9 +417,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: "Oscar is frightened of you at first but once you start nuzzling him
-    Oscar understands what you want him to do. Oscar gets up an follows you. \n(+1
-    Trust points)"
+  storyText: "NARRATOR:\r\nOscar is frightened of the Fox at first but once the Fox
+    started nuzzling him, Oscar understood what the Fox wanted him to do. Oscar got
+    up and followed the Fox. \n(+1 Trust points)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -429,6 +430,33 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  storyText: "GAME:\r\nThe Fox needs Oscar\u2019s attention. What does the Fox do?\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &965841006
@@ -445,8 +473,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: He turned his head and saw that the water flowed over the lip of the
-    pool and off in a stream  further into the cave.
+  storyText: "NARRATOR:\r\nHe turned his head and saw that the water flowed over
+    the lip of the pool and off in a stream further into the cave. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -473,9 +501,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: "THE FOX: That\u2019s our best option. Now how will I get that boy to
-    listen to me and since he can\u2019t understand me this will be a challenge.\r\nWhat
-    can I do to get him to listen to me?\r\n"
+  storyText: "THE FOX:\r\n\u201CThat\u2019s our best option. Now I must get that
+    boy to listen to me and since he cannot understand me, this will be a challenge.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -502,8 +529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: "THE FOX: Well, we can\u2019t go back that way. The well is too far
-    up to climb back. We\u2019ll have to find another way out."
+  storyText: "THE FOX:\r\n\u201CWell, we can\u2019t go back that way. The well is
+    too far up to climb back. We\u2019ll have to find another way out.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -530,9 +557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: 'Looking around his surroundings the fox can see the waters source came
-    from a crack in the wall. Growing out of the corner of the crack thick tree roots
-    are climbing their way out gobbling down the fresh water. '
+  storyText: "NARRATOR:\r\nLooking around, the Fox saw that water came from a crack
+    in the wall. Growing out of the crack where thick tree roots. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -559,7 +585,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: 'THE FOX: There is no way I could climb through that I would not fit.'
+  storyText: 'THE FOX:
+
+    There is no way I could climb through that, I would not
+    fit.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -586,7 +617,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: The fox looks at his surroundings.
+  storyText: "THE FOX:\r\n\u201CStill scared of me, is he? Not good he needs to trust
+    me if we are to get out of this cave. Speaking of which, we need to find a way
+    out of here.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -613,9 +646,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: 'THE FOX: Still scared of me is he. Not good he needs to trust me if
-    we are to get out of this cave. Speaking of which we need to find a way out of
-    here.'
+  storyText: "NARRATOR: \r\nThe Fox walked over and started licking his wounds. Dazed
+    from the tumble, Oscar didn\u2019t realise how close the fox had gotten, but
+    as soon as he did he shuffled back, flailing his arms at the fox to keep him
+    at bay.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -642,12 +676,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "After they had gotten to shore Oscar got up and continued to flee.
-    but he didn\u2019t get very far cause his foot found a rock tripping him over
-    face first into the cave floor. The fox walked over and started licking his wounds.
-    Dazed from the tumble Oscar didn\u2019t realise how close the fox had gotten.
-    But as soon as he did he shuffled back flailing his arms at the fox to keep him
-    at bay."
+  storyText: "NARRATOR:\r\nAfter they had Reached shore, Oscar got up and continued
+    to flee. However, he didn\u2019t get very far because his foot was caught on
+    a rock, tripping him over face first onto the cave floor.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -674,9 +705,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: 'THE FOX: Now look at where we are at the bottom of a cave swimming
-    in a pool with no way out. If only he trusted me maybe he would have seen that
-    I was trying to prevent him from falling. '
+  storyText: "THE FOX:\r\n\u201CNow look at where we are, at the bottom of a cave,
+    swimming in a pool, stuck with no way out. If only he trusted me maybe he would
+    have seen that I was trying to prevent him from falling.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -708,6 +739,37 @@ MonoBehaviour:
     stringVal: Scene3
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &965841016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  storyText: 'NARRATOR:
+
+    The Fox looked at his surroundings.
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 0
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1214789573
 GameObject:
   m_ObjectHideFlags: 1
@@ -1735,7 +1797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 319
     y: 371
-    width: 78.04124
+    width: 79
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1806,7 +1868,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315
     y: 135.87431
-    width: 91.23711
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1820,11 +1882,13 @@ MonoBehaviour:
   - {fileID: 965841013}
   - {fileID: 965841012}
   - {fileID: 965841011}
+  - {fileID: 965841016}
   - {fileID: 965841008}
   - {fileID: 965841009}
   - {fileID: 965841010}
   - {fileID: 965841006}
   - {fileID: 965841007}
+  - {fileID: 965841005}
   - {fileID: 2453113842641918037}
   - {fileID: 2453113842641918035}
   suppressAllAutoSelections: 0
@@ -1842,8 +1906,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'THE FOX: Why why WHY! Why did this boy run from me and why even after
-    his mother told him not to, Did the boy kept running? '
+  storyText: "THE FOX:\r\n\u201CWhy, WHY! Why did this boy run from me and why even
+    after his mother told him not to, did the boy keep running?\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1870,7 +1934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Pull at his shirt
+  text: Pull at Oscars shirt
   description: 
   targetBlock: {fileID: 2453113842641918036}
   hideIfVisited: 0
@@ -1897,7 +1961,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 464.0989
     y: 263
-    width: 71.4433
+    width: 71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1952,7 +2016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 147.96907
     y: 257.9011
-    width: 87.1134
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1980,9 +2044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: You walk up to Oscar and start tugging him at his shirt. Oscar jerks
-    away but somehow understands that you are trying to show him something. Oscar
-    gets up and follows you. (-1 Trust points)
+  storyText: "NARRATOR:\r\nThe Fox walked up to Oscar and started tugging at his
+    shirt. Oscar jerked away but somehow understood that the Fox was trying to show
+    him something. Oscar got up and followed the Fox. \n(-1 Trust points)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

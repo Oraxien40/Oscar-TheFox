@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -267,9 +267,6 @@ GameObject:
   - component: {fileID: 965841026}
   - component: {fileID: 965841027}
   - component: {fileID: 965841020}
-  - component: {fileID: 965841021}
-  - component: {fileID: 965841019}
-  - component: {fileID: 965841022}
   - component: {fileID: 965841023}
   - component: {fileID: 965841024}
   - component: {fileID: 965841025}
@@ -312,7 +309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321.05884
     y: 51.440063
-    width: 89.78299
+    width: 89.24049
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -425,10 +422,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: 'On the left side was the pool that they landed in. Hanging from the
-    ceiling and coming out of the walls were tree roots pushing their way through
-    the rock to get at the water. The Fox started nawin at the roots trying to break
-    a large piece off.
+  storyText: 'NARRATOR:
+
+    On the left side was the pool that they landed in.
+    Hanging from the ceiling and coming out of the walls were tree roots, pushing
+    their way through the rock to get at the water. The Fox started pulling at the
+    roots, trying to break a large piece off.
 
 '
   description: 
@@ -478,9 +477,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "\rOscar comes over gabs a sharp rock and hacks at the root you\u2019re
-    trying to break off. It takes a minute, but he eventually gets it off. Sap comes
-    out of the broken ends and drips onto the floor.\r\n"
+  storyText: 'NARRATOR:
+
+    Oscar came over grabbed a sharp rock and hacked at
+    the root the Fox was trying to break off. It took him a minute, but he eventually
+    hacked the root free. Sap pooled out of the broken end and dripped onto the floor.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -507,9 +510,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: "On the left side is the pool that you landed in, hanging from the ceiling
-    and coming out of the walls are tree roots pushing through the rock to get at
-    the water. You start pulling at the roots trying to break a large piece off.\r"
+  storyText: 'NARRATOR:
+
+    On the left side was the pool that they landed in.
+    Hanging from the ceiling and coming out of the walls were tree roots, pushing
+    their way through the rock to get at the water. The Fox started pulling at the
+    roots, trying to break a large piece off.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -538,7 +546,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 434.94547
     y: 230.41534
-    width: 180.19888
+    width: 180.37971
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -586,8 +594,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "On the right side is an open space of rocks, dirt, sticks and an old
-    t-shirt. \r\nYou grab the t-shirt and a stick and place them at Oscars feet.\r\n"
+  storyText: "NARRATOR:\r\nOn the right side was an open space of rocks, dirt, sticks
+    and an old t-shirt. \r\nThe Fox grabbed the t-shirt and a stick and place them
+    at Oscar's feet."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -615,8 +624,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 124.49017
-    y: 225.75896
-    width: 181.64552
+    y: 224.49313
+    width: 181.64554
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -642,9 +651,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: "\rOscar comes over gabs a sharp rock and hacks at the root you\u2019re
-    trying to break off. It takes a minute, but he eventually gets it off. Sap comes
-    out of the broken ends and drips onto the floor.\r\n"
+  storyText: 'NARRATOR:
+
+    Oscar came over grabbed a sharp rock and hacked at
+    the root the Fox was trying to break off. It took him a minute, but he eventually
+    hacked the root free. Sap pooled out of the broken end and dripped onto the floor.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -671,7 +684,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "Objective\r: Help Oscar make a light source\r\n"
+  storyText: 'OBJECTIVE:
+
+    Help Oscar make a light source.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -698,8 +715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: 'Oscar: Wait light does not reach down there. Before I go down there,
-    I need to be able to see.'
+  storyText: "OSCAR:\r\n\u201CWait, light does not reach down there. Before I go
+    down there, I need to be able to see.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -728,7 +745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 334.37643
     y: 278.86676
-    width: 79.65641
+    width: 80.37974
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -744,9 +761,6 @@ MonoBehaviour:
   - {fileID: 965841025}
   - {fileID: 965841024}
   - {fileID: 965841023}
-  - {fileID: 965841022}
-  - {fileID: 965841019}
-  - {fileID: 965841021}
   - {fileID: 965841020}
   - {fileID: 965841016}
   - {fileID: 965841017}
@@ -806,38 +820,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: 'Oscar takes the shirt and rips it up into a long strip of cloth. He
-    then takes that cloth and soaks it in the sap. Finally, he wraps the sappy cloth
-    around one end of the stick. '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &965841019
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965840997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 67
-  indentLevel: 0
-  storyText: Oscar hits the second rock with the first repeatedly making sure each
-    strike was directly over the torches head until sparks started flying out falling
-    onto the sap-soaked cloth.
+  storyText: "NARRATOR:\r\nOscar then took the shirt and ripped it up into long strips
+    of cloth. Then he took the cloth and soaked it in the sap. Finally, he wrapped
+    the sappy cloth around one end of the stick. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -864,67 +849,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: 'Objective complete:
+  storyText: 'OBJECTIVE COMPLETE:
 
-    Now that oscar has a light source he and the
-    fox venture further into the cave.
+    Now that Oscar has a light source, he and
+    the Fox ventured further into the cave.
 
 '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &965841021
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965840997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 66
-  indentLevel: 0
-  storyText: The cloth starts smoking Then fizzing and then a woosh as the torch
-    catches fire.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &965841022
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965840997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 68
-  indentLevel: 0
-  storyText: "THE FOX: Yep, that\u2019s exactly what he\u2019s doing."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -951,7 +881,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: 'THE FOX: What is he going to do with that hit more rocks.'
+  storyText: 'NARRATOR:
+
+    More sparks were made, until the cloth started smoking
+    and then caught fire. The fiery torch gave off a brilliant golden glow that reached
+    out to every part of the cave.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -978,7 +914,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: 'Oscar come rushing back and in his hand is a second rock. '
+  storyText: 'NARRATOR:
+
+    Oscar then grabbed his torch and hit the second rock
+    with the first repeatedly making sure each strike was directly over the torches
+    head. With each hit  sparks flew out spraying the sap-soaked cloth.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1005,7 +947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: 'OSCAR: FOUND IT!!'
+  storyText: "OSCAR:\r\n \u201CFOUND IT!!\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1032,8 +974,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: "THE FOX: Is the boy going mad he\u2019s not accomplishing anything
-    by doing that?"
+  storyText: 'NARRATOR:
+
+    Oscar had kept on hitting rocks together with no sign
+    of stopping. This went on for a long time. The Fox started barking at Oscar when
+    suddenly sparks stared coming from the latest rocks Oscar had been banging together.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1060,8 +1007,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: Oscar ponders on this for a minute then gets the sharp rock and starts
-    hitting it against other rocks.
+  storyText: 'NARRATOR:
+
+    Oscar pondered on this for a minute, then grabbed the
+    sharp rock and started hitting it against other rocks.
+
+    Seeing this, the
+    Fox wondered if the Boy was going mad.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1088,7 +1042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: 'OSCAR: Now I have a torch but how am I going to light it.'
+  storyText: "OSCAR:\r\n\u201CNow I have a torch but how am I going to light it.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1115,9 +1069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: 'Game: What did the fox do...?
-
-'
+  storyText: "GAME: \r\nWhat does the fox do\u2026?\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1818,7 +1770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 322.0706
     y: 144.41083
-    width: 89.78299
+    width: 87.97467
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1848,7 +1800,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'Narrator: Oscar could see where the fox was leading him.'
+  storyText: 'NARRATOR:
+
+    Oscar could see where the fox was leading him.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1902,7 +1858,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450.17493
     y: 134.14499
-    width: 139.69257
+    width: 139.8734
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1955,7 +1911,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 151.95592
     y: 138.54242
-    width: 132.45929
+    width: 132.27846
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1982,9 +1938,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "On the right side was an open space of rocks, dirt, sticks and an old
-    t-shirt. \r\nThe Fox grabbed the t-shirt and a stick and place them at Oscar's
-    feet.\r\n"
+  storyText: "NARRATOR:\r\nOn the right side was an open space of rocks, dirt, sticks
+    and an old t-shirt. \r\nThe Fox grabbed the t-shirt and a stick and place them
+    at Oscar's feet."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

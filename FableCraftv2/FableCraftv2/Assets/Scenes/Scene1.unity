@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -293,7 +293,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314
     y: 46.93617
-    width: 89.14893
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -320,11 +320,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -127.87866, y: 16.804197}
+  scrollPos: {x: -1.7509699, y: 187.59142}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -334,7 +334,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2453113842641918033}
   selectedCommands:
-  - {fileID: 2453113842641918034}
+  - {fileID: 965841006}
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
@@ -395,9 +395,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: One day Oscar was playing in the garden. Hearing the bushes rustle,
-    he looked up. hidden in a bush he saw orange wisps of hair and two black beady
-    eyes staring right at him. A fox had found him.
+  storyText: 'NARRATOR:
+
+    One day Oscar was playing in the garden. Hearing the
+    bushes rustle he looked up. Hidden in a bush he saw orange wisps of hair and
+    two black beady eyes staring right at him. A fox had found him.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -454,8 +458,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: Oscar turned his head and saw the fox just inches away trying to bite
-    his shirt when suddenly the ground gave way and both the fox and oscar fell in.
+  storyText: 'NARRATOR:
+
+    Oscar turned his head and saw the fox just inches away
+    trying to bite his shirt, when suddenly the ground gave way and both the fox
+    and oscar fell in.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -482,9 +491,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: Oscar heard her but the memory of his shoulder screaming out in pain
-    terrified him to no end. There is no way Oscar could trust this fox, so he kept
-    running.
+  storyText: 'NARRATOR:
+
+    Oscar heard her, but the memory of his shoulder screaming
+    out in pain terrified him to no end. There is no way Oscar could trust this fox,
+    so he kept running.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -511,8 +524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "Seeing what\u2019s happing Oscar\u2019s mum yelled! \"Oscar STOP!\u201D
-    \u201CThe fox is trying to help you.\" "
+  storyText: "NARRATOR:\r\nSeeing what was happing Oscar\u2019s mum yelled, \"Oscar
+    STOP! The fox is trying to help you!\" \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -539,7 +552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "OSCAR: \u201CNot again\u201D \u201CPLEASE NOT AGAIN\u201D"
+  storyText: "OSCAR:\r\n\u201CNot again, PLEASE NOT AGAIN\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -566,9 +579,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: Then as fast as his legs would take him, sprinted off in the opposite
-    direction. There was no doubt that the fox had given chase because he could hear
-    the sounds of leaves shaking and then a whack as the fox kicked his bucket.
+  storyText: 'NARRATOR:
+
+    Then as fast as his legs would take him, Oscar sprinted
+    off in the opposite direction. There was no doubt that the Fox had given chase,
+    because he could hear leaves shaking and a whack as the Fox kicked a bucket.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -595,8 +612,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: 'Remembering this oscar reaches up to his shoulder touching the scars
-    left by the fox. Slowly he stands keeping his eyes on the fox. '
+  storyText: "NARRATOR:\r\nRemembering this Oscar reached up to his shoulder, touching
+    the scars left by the fox. He slowly got to his feet keeping his eyes on the
+    fox. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -623,9 +641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: Flashing back two years Oscar was nine he had been out in his back yard
-    bush when suddenly, a fox had come out of nowhere and attacked oscar biting at
-    his shoulder. Scaring him for life.
+  storyText: "NARRATOR:\r\nOscar thought back to when he was nine, playing in his
+    backyard and was attacked by a fox biting him on the shoulder, scarring him for
+    life. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -652,7 +670,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: 'OSCAR: "No, no please not again!".'
+  storyText: 'OSCAR:
+
+    "No, no please not again!"
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1360,7 +1382,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320.92303
     y: 157.53851
-    width: 78.085106
+    width: 79
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1410,7 +1432,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.7098
     y: 105.48505
-    width: 88.29787
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1446,7 +1468,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: This is a story of a boy named Oscar and his mistrust of a certain fox.
+  storyText: 'NARRATOR:
+
+    This is a story of a boy named Oscar and his mistrust
+    of a certain fox.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

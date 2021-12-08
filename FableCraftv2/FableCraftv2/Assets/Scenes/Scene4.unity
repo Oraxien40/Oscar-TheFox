@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -254,6 +254,8 @@ GameObject:
   - component: {fileID: 2453113841996941391}
   - component: {fileID: 965841003}
   - component: {fileID: 965841002}
+  - component: {fileID: 965841005}
+  - component: {fileID: 965841004}
   - component: {fileID: 965841015}
   - component: {fileID: 965841014}
   - component: {fileID: 965841013}
@@ -264,8 +266,6 @@ GameObject:
   - component: {fileID: 965841008}
   - component: {fileID: 965841007}
   - component: {fileID: 965841006}
-  - component: {fileID: 965841005}
-  - component: {fileID: 965841004}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -166, y: -81}
+  scrollPos: {x: -61, y: 47}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -416,10 +416,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: The ceiling is twenty meters up and the bottom is nowhere to be seen.
-    The cave continues at the other side. Stretched between each side is an old rope
-    bridge with holes on each slat. The river that you were following falls off the
-    edge of the ravine.
+  storyText: "NARRATOR:\r\nThe ravine stretched from the left to the right. All that
+    could be seen was what looked like a massive crack in the earth were the rock
+    was violently torn apart. The ceiling was twenty meters high, and the ground
+    was nowhere to be seen. The cave continued over at the other side of the ravine
+    and stretched between each side was an old rope bridge. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -446,8 +447,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: Oscar walks over to the bridge and inspects each post, then looks up
-    behind him.
+  storyText: "OSCAR:\r\n\u201CThere\u2019s a bridge, there might be a way out on
+    the other side.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -462,7 +463,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841006
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -472,12 +473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 33
+  itemId: 45
   indentLevel: 0
-  storyText: "OSCAR\r:\n The people who built the bridge came from the other side
-    and from the markings on each slat there use to be a rail on the bridge, meaning
-    they were miners. You can tell that they came from the other side because the
-    holes that held the sleepers for the rail end here.\r\n"
+  storyText: "OSCAR:\r\n\u201COh no. RUN!\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -492,7 +490,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841007
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -502,10 +500,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 32
+  itemId: 44
   indentLevel: 0
-  storyText: "OSCAR:\n So that means that the miners entered and exited from the
-    other side of the ravine. Which means we need to cross this bridge."
+  storyText: 'NARRATOR:
+
+    Oscar took off in a sprint.
+
+    *SNAP*
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -520,7 +523,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841008
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -530,11 +533,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 31
+  itemId: 43
   indentLevel: 0
-  storyText: While Oscar was rambling on the fox decided to cross the bridge and
-    was halfway across when he heard some creaking, a small snap as a bit of the
-    rope breaks. The fox speeds up and races to the other side.
+  storyText: "THE FOX:\r\n\u201CThere goes another one. If any more break Oscar will
+    fall.\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -549,7 +551,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841009
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -559,11 +561,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 30
+  itemId: 42
   indentLevel: 0
-  storyText: Oscar annoyed put one foot on the bridge and slowly added his weight
-    until his other foot was off the ground. He then kept a steady pace as he crossed
-    the bridge.
+  storyText: "NARRATOR:\r\nOscar was so close that he almost had one foot on the
+    edge before another *SNAP*. The bridges ropes had broken, and Oscar was grabbed
+    by gravity\u2019s indiscriminate pull.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -578,7 +580,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841010
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -588,9 +590,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 41
   indentLevel: 0
-  storyText: "OSCAR: \n\"Please don\u2019t break!\u201D \u201CPlease don\u2019t break!!!\u201D"
+  storyText: 'GAME:
+
+    The Fox needs to save Oscar, what does the Fox do?
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -605,7 +611,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841011
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -615,13 +621,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 28
+  itemId: 40
   indentLevel: 0
-  storyText: "Every movement Oscar only made the bridge creak more and more. Every
-    time the bridge creaked oscar froze in place. The bridge slowly swayed from side
-    to side as each step became riskier and riskier. At this point oscar had almost
-    made it to the other side. But just then oscar heard a \u2018snap\u2019. One
-    of the bridges four supporting ropes had SNAPED."
+  storyText: 'NARRATOR:
+
+    Annoyed, Oscar put one foot on the bridge and slowly
+    added his weight until his other foot was off the ground. He then kept a steady
+    pace as he crossed the bridge.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -636,7 +644,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841012
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -646,9 +654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
+  itemId: 39
   indentLevel: 0
-  storyText: "OSCAR: \u201COH-No. RUNN\u201D"
+  storyText: "OSCAR:\r\n\u201CPlease don\u2019t break! Please don\u2019t break!!!\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -663,7 +671,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841013
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -673,9 +681,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 26
+  itemId: 38
   indentLevel: 0
-  storyText: "Oscar takes off in a sprint.\r\n\u2018SNAP\u2019\r\n"
+  storyText: "NARRATOR:\r\nEvery movement Oscar made Caused the bridge creek more
+    and more. Every time the bridge creaked Oscar froze in place. The bridge slowly
+    swayed from side to side, as each step became riskier and riskier. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -690,7 +700,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841014
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -700,10 +710,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 25
+  itemId: 37
   indentLevel: 0
-  storyText: "THE FOX: \u201CThere goes another one.\u201D \u201CIf any more break
-    Oscar will fall.\u201D"
+  storyText: "NARRATOR:\r\nAt this point Oscar had almost made it to the other side,
+    but just then oscar heard a sharp snap. One of the bridge\u2019s four supporting
+    ropes had snapped.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -718,7 +729,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841015
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -728,11 +739,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 24
+  itemId: 36
   indentLevel: 0
-  storyText: "Oscar was so close that he almost had one foot on the edge before \u2018SNAP\u2019.
-    The bridges ropes had broken and oscar was grabbed by gravity\u2019s indiscriminate
-    pull."
+  storyText: 'NARRATOR:
+
+    The Fox had decided to cross the bridge, while Oscar
+    was checking if it was safe. The Fox was halfway across when he heard some creaking,
+    and a small snap as the rope started breaking. The Fox sped up and raced to the
+    other side.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1423,9 +1439,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: you bite at Oscars shirt and manage to get a good grip oscar grabs onto
-    one of the poles that held up the bridge and the both of you pull him up. (+4
-    Trust points for saving Oscar)
+  storyText: "NARRATOR:\r\nThe Fox bit at Oscars shirt and manage to get a good grip.
+    Oscar grabbed onto one of the poles that held up the bridge, and the both of
+    you work to pull him up. \n(+4 Trust points for saving Oscar)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1779,7 +1795,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 319
     y: 371
-    width: 79.6
+    width: 79
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1861,16 +1877,16 @@ MonoBehaviour:
   - {fileID: 2453113842641918034}
   - {fileID: 965841004}
   - {fileID: 965841005}
+  - {fileID: 965841015}
+  - {fileID: 965841011}
+  - {fileID: 965841012}
+  - {fileID: 965841013}
+  - {fileID: 965841014}
   - {fileID: 965841006}
   - {fileID: 965841007}
   - {fileID: 965841008}
   - {fileID: 965841009}
   - {fileID: 965841010}
-  - {fileID: 965841011}
-  - {fileID: 965841012}
-  - {fileID: 965841013}
-  - {fileID: 965841014}
-  - {fileID: 965841015}
   - {fileID: 2453113842641918037}
   - {fileID: 2453113842641918035}
   suppressAllAutoSelections: 0
@@ -1888,10 +1904,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "It\u2019s been about an hour since they left the cave with the pool
-    and their continuing to go deeper and deeper. All that can be heard is the burbles
-    of stream and the fox\u2019s and Oscar\u2019s footsteps. As they walk around
-    a bend the cave opens into a ravine. "
+  storyText: "NARRATOR:\r\nAfter an hour of walking, the cave had taken them deeper
+    and deeper into the earth. All that could be heard were the burbles of the stream
+    and the footsteps of the duo. They walked around a bend and the cave opened up
+    into an underground ravine. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1918,7 +1934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Grab arm
+  text: Grab Oscars arm
   description: KICK
   targetBlock: {fileID: 2453113842641918036}
   hideIfVisited: 0
@@ -1945,7 +1961,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 463
     y: 262
-    width: 72.4
+    width: 72
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1973,7 +1989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: Grab shirt
+  text: Grab Oscars shirt
   description: PUNCH
   targetBlock: {fileID: 2453113842641918038}
   hideIfVisited: 0
@@ -2000,7 +2016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 184
     y: 265
-    width: 76.4
+    width: 76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2028,11 +2044,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "You bite oscars arm. Oscar screams out in pain but doesn\u2019t fall.
-    He uses his other arm to hoist himself up onto the ledge. As soon as he is safe
-    you let go and blood gushes down Oscar\u2019s arm and it hurts for him to move.
-    He pulls off his jumper and tightly wraps it around the wound. (+4 Trust points
-    for saving Oscar) (-2 Trust points for hurting Oscar)"
+  storyText: "NARRATOR:\r\nThe Fox bit Oscars arm. He screamed out in pain but did
+    not fall. He used his other arm to hoist himself up onto the ledge. As soon as
+    he was safe The Fox let go and blood went gushing down Oscar\u2019s arm. He slowly
+    pulled off his jumper and tightly wrapped it around his wound. \n(+4 Trust points
+    for saving Oscar) (-2 Trust points for hurting Oscar)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
