@@ -345,7 +345,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2453113842641918033}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 965841013}
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -677,7 +678,7 @@ MonoBehaviour:
   itemId: 28
   indentLevel: 0
   storyText: "NARRATOR:\r\nAfter they had Reached shore, Oscar got up and continued
-    to flee. However, he didn\u2019t get very far because his foot was caught on
+    to flee. However, he didn\u2019t get very far because his foot got caught on
     a rock, tripping him over face first onto the cave floor.\r\n"
   description: 
   character: {fileID: 0}
