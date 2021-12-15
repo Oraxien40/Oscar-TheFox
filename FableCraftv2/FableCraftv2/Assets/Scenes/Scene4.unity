@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -61, y: 47}
+  scrollPos: {x: -121, y: 96}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -341,10 +341,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 2453113842641918033}
-  selectedCommands:
-  - {fileID: 965841011}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -463,7 +461,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841006
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -490,7 +488,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841007
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -523,7 +521,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841008
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -551,7 +549,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841009
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -564,8 +562,8 @@ MonoBehaviour:
   itemId: 42
   indentLevel: 0
   storyText: "NARRATOR:\r\nOscar was so close that he almost had one foot on the
-    edge before another *SNAP*. The bridges ropes had broken, and Oscar was grabbed
-    by gravity\u2019s indiscriminate pull.\r\n"
+    edge before another *SNAP*. The bridge\u2019s ropes had broken, and Oscar was
+    grabbed by gravity\u2019s indiscriminate pull.\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -580,7 +578,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841010
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -611,7 +609,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841011
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -644,7 +642,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841012
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -671,7 +669,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841013
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -700,7 +698,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841014
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -713,7 +711,7 @@ MonoBehaviour:
   itemId: 37
   indentLevel: 0
   storyText: "NARRATOR:\r\nAt this point Oscar had almost made it to the other side,
-    but just then oscar heard a sharp snap. One of the bridge\u2019s four supporting
+    but just then Oscar heard a sharp snap. One of the bridge\u2019s four supporting
     ropes had snapped.\r\n"
   description: 
   character: {fileID: 0}
@@ -729,7 +727,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841015
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1795,7 +1793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 319
     y: 371
-    width: 79
+    width: 78.57143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1904,10 +1902,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "NARRATOR:\r\nAfter an hour of walking, the cave had taken them deeper
+  storyText: 'NARRATOR:
+
+    After an hour of walking, the cave had taken them deeper
     and deeper into the earth. All that could be heard were the burbles of the stream
     and the footsteps of the duo. They walked around a bend and the cave opened up
-    into an underground ravine. \r\n"
+    into an underground ravine.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1960,8 +1962,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 463
-    y: 262
-    width: 72
+    y: 261
+    width: 72.28571
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2016,7 +2018,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 184
     y: 265
-    width: 76
+    width: 75.71429
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

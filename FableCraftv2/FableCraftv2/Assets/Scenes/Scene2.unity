@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -344,9 +344,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2453113842641918033}
-  selectedCommands:
-  - {fileID: 965841013}
+  - {fileID: 2453113842641918029}
+  selectedCommands: []
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -420,7 +419,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "NARRATOR:\r\nOscar is frightened of the Fox at first but once the Fox
     started nuzzling him, Oscar understood what the Fox wanted him to do. Oscar got
-    up and followed the Fox. \n(+1 Trust points)\r\n"
+    up and followed the Fox. \n(+1 Trust points)\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -559,7 +558,7 @@ MonoBehaviour:
   itemId: 32
   indentLevel: 0
   storyText: "NARRATOR:\r\nLooking around, the Fox saw that water came from a crack
-    in the wall. Growing out of the crack where thick tree roots. \r\n"
+    in the wall. Growing out of the crack were thick tree roots. \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -588,8 +587,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'THE FOX:
 
-    There is no way I could climb through that, I would not
-    fit.
+    There is no way I could climb through that, I would
+    not fit.
 
 '
   description: 
@@ -648,8 +647,8 @@ MonoBehaviour:
   itemId: 29
   indentLevel: 0
   storyText: "NARRATOR: \r\nThe Fox walked over and started licking his wounds. Dazed
-    from the tumble, Oscar didn\u2019t realise how close the fox had gotten, but
-    as soon as he did he shuffled back, flailing his arms at the fox to keep him
+    from the tumble, Oscar didn\u2019t realise how close the Fox had gotten, but
+    as soon as he did he shuffled back, flailing his arms at the Fox to keep him
     at bay.\r\n"
   description: 
   character: {fileID: 0}
@@ -677,7 +676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "NARRATOR:\r\nAfter they had Reached shore, Oscar got up and continued
+  storyText: "NARRATOR:\r\nAfter they had reached shore, Oscar got up and continued
     to flee. However, he didn\u2019t get very far because his foot got caught on
     a rock, tripping him over face first onto the cave floor.\r\n"
   description: 
@@ -1798,7 +1797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 319
     y: 371
-    width: 79
+    width: 78.57143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1962,7 +1961,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 464.0989
     y: 263
-    width: 71
+    width: 70.57143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2017,7 +2016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 147.96907
     y: 257.9011
-    width: 90
+    width: 88.28571
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2047,7 +2046,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "NARRATOR:\r\nThe Fox walked up to Oscar and started tugging at his
     shirt. Oscar jerked away but somehow understood that the Fox was trying to show
-    him something. Oscar got up and followed the Fox. \n(-1 Trust points)\r\n"
+    him something. Oscar got up and followed the Fox. \n(-1 Trust points)\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -309,7 +309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321.05884
     y: 51.440063
-    width: 89.24049
+    width: 89.78299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -510,14 +510,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: 'NARRATOR:
-
-    On the left side was the pool that they landed in.
-    Hanging from the ceiling and coming out of the walls were tree roots, pushing
-    their way through the rock to get at the water. The Fox started pulling at the
-    roots, trying to break a large piece off.
-
-'
+  storyText: "NARRATOR:\r\nOn the left side was the pool that they landed in. Hanging
+    from the ceiling and coming out of the walls were tree roots, pushing their way
+    through the rock to get at the water. The Fox started pulling at the roots, trying
+    to break a large piece off.\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -546,7 +542,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 434.94547
     y: 230.41534
-    width: 180.37971
+    width: 180.19888
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -625,7 +621,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 124.49017
     y: 224.49313
-    width: 181.64554
+    width: 181.64552
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -651,13 +647,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: 'NARRATOR:
-
-    Oscar came over grabbed a sharp rock and hacked at
-    the root the Fox was trying to break off. It took him a minute, but he eventually
-    hacked the root free. Sap pooled out of the broken end and dripped onto the floor.
-
-'
+  storyText: "NARRATOR:\r\nOscar came over grabbed a sharp rock and hacked at the
+    root the Fox was trying to break off. It took him a minute, but he eventually
+    hacked the root free. Sap pooled out of the broken end and dripped onto the floor.\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -745,7 +737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 334.37643
     y: 278.86676
-    width: 80.37974
+    width: 79.65641
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -820,9 +812,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: "NARRATOR:\r\nOscar then took the shirt and ripped it up into long strips
-    of cloth. Then he took the cloth and soaked it in the sap. Finally, he wrapped
-    the sappy cloth around one end of the stick. \r\n"
+  storyText: 'NARRATOR:
+
+    Oscar then took the shirt and ripped it up into long
+    strips of cloth. Then he took the cloth and soaked it in the sap. Finally, he
+    wrapped the sappy cloth around one end of the stick.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -918,7 +914,7 @@ MonoBehaviour:
 
     Oscar then grabbed his torch and hit the second rock
     with the first repeatedly making sure each strike was directly over the torches
-    head. With each hit  sparks flew out spraying the sap-soaked cloth.
+    head. With each hit sparks flew out, spraying the sap-soaked cloth.
 
 '
   description: 
@@ -1069,7 +1065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: "GAME: \r\nWhat does the fox do\u2026?\r\n"
+  storyText: "GAME: \r\nWhat does the Fox do\u2026?\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1770,7 +1766,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 322.0706
     y: 144.41083
-    width: 87.97467
+    width: 89.78299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1802,7 +1798,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'NARRATOR:
 
-    Oscar could see where the fox was leading him.
+    Oscar could see where the Fox was leading him.
 
 '
   description: 
@@ -1858,7 +1854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450.17493
     y: 134.14499
-    width: 139.8734
+    width: 139.69257
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1911,7 +1907,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 151.95592
     y: 138.54242
-    width: 132.27846
+    width: 132.45929
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

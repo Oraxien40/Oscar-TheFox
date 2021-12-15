@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1.7509699, y: 187.59142}
+  scrollPos: {x: -181.75098, y: 174.59142}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -332,9 +332,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2453113842641918033}
-  selectedCommands:
-  - {fileID: 965841006}
+  - {fileID: 2453113842641918029}
+  selectedCommands: []
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
@@ -460,9 +459,9 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'NARRATOR:
 
-    Oscar turned his head and saw the fox just inches away
-    trying to bite his shirt, when suddenly the ground gave way and both the fox
-    and oscar fell in.
+    Oscar turned his head and saw the Fox just inches away
+    trying to bite his shirt, when suddenly the ground gave way and both the Fox
+    and Oscar fell in.
 
 '
   description: 
@@ -524,8 +523,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "NARRATOR:\r\nSeeing what was happing Oscar\u2019s mum yelled, \"Oscar
-    STOP! The fox is trying to help you!\" \r\n"
+  storyText: "NARRATOR:\r\nSeeing what was happening Oscar\u2019s mum yelled, \"Oscar
+    STOP! The Fox is trying to help you!\"\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -552,7 +551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "OSCAR:\r\n\u201CNot again, PLEASE NOT AGAIN\u201D\r\n"
+  storyText: "OSCAR:\r\n\u201CNot again, PLEASE NOT AGAIN!\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -612,9 +611,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "NARRATOR:\r\nRemembering this Oscar reached up to his shoulder, touching
-    the scars left by the fox. He slowly got to his feet keeping his eyes on the
-    fox. \r\n"
+  storyText: 'NARRATOR:
+
+    Remembering this Oscar reached up to his shoulder,
+    touching the scars left by the Fox. He slowly got to his feet keeping his eyes
+    on the Fox.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -710,7 +713,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &965841015
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1382,7 +1385,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320.92303
     y: 157.53851
-    width: 79
+    width: 78.57143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1431,7 +1434,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 315.7098
-    y: 105.48505
+    y: 104.48505
     width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
